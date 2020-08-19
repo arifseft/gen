@@ -35,7 +35,7 @@ type LogSql func(ctx context.Context, sql string)
 
 var (
     // ErrNotFound error when record not found
-	ErrNotFound  = fmt.Errorf("record Not Found")
+	ErrNotFound  = fmt.Errorf("record not found")
 
 	// ErrUnableToMarshalJSON error when json payload corrupt
     ErrUnableToMarshalJSON  = fmt.Errorf("json payload corrupt")
